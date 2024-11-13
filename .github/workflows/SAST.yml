@@ -46,7 +46,7 @@ jobs:
         SONAR_HOST_URL: https://sq.accuknox.com
       with:
         args: >
-          -Dsonar.projectKey=DVWA-comparison
+          -Dsonar.projectKey=webgoat
 
   SonarQube-Paid:
     name: SonarQube-Paid
@@ -61,7 +61,7 @@ jobs:
         SONAR_HOST_URL: http://139.59.43.202:9000
       with:
         args: >
-          -Dsonar.projectKey=juice-shop-sast-compare
+          -Dsonar.projectKey=webgoat
 
   Checkmarx:
     name: Checkmarx
